@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style>
+    .slider{background-image: url('slider2.png');
+            height: 500px;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            animation: mymove 10s infinite;}
+
+        @keyframes mymove{    
+        30%{background:url('slider3.jpg');
+		width:100%;
+		height:500px;
+        position: relative;
+		background-repeat:no-repeat;
+		background-size:cover;}
+	60%{background:url('slider2.png');
+	    width:100%;
+		height:500px;
+        position: relative;
+		background-repeat:no-repeat;
+		background-size:cover;}
+	80%{background:url('slider4.jpg');
+		width:100%;
+		height:500px;
+        position: relative;
+		background-repeat:no-repeat;
+		background-size:cover;}
+        }
+
+    .slider p{position: absolute;
+                margin: 250px 50%;
+                color: white;
+                font-size: 30px;}
+</style>
+</head>
+
+<body>
+    <div class="slider">
+        <p>SLIDER</p>
+    </div>
+</body>
+</html>
